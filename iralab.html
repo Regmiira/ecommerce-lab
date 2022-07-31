@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--imageslider-->
+    <link rel="stylesheet" href="flexslider.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function () {
+        $(".flexslider").flexslider();
+      });
+    </script>
+    <title>Layout</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="ping.png" />
+        <span>MyShop.com</span>
+      </div>
+      <div class="wrap">
+        <div class="search">
+          <input
+            type="text"
+            class="searchTerm"
+            placeholder="What are you looking for?"
+          />
+          <button type="submit" class="searchButton">
+            <img src="./search.png" alt="search" />
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="leftmostDiv">
+      <div class="row">
+        <div class="leftDiv">
+          <div class="middleBlock">Electronics</div>
+          <div class="middleBlock">Health and Beauty</div>
+          <div class="middleBlock">Mens Fashion</div>
+          <div class="middleBlock">Women Fashion</div>
+          <div class="middleBlock">Sports</div>
+          <div class="middleBlock">Grocessories</div>
+          <div class="news">
+            <h1>news</h1>
+            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
+            in laying out print, graphic or web designs.
+          </div>
+        </div>
+
+        <div class="rightDiv">
+          <div class="firstright">
+            <h1 class="ribbon">
+              <strong class="ribbon-content">HOT SALE</strong>
+            </h1>
+            <div class="flexslider">
+              <ul class="slides">
+                <li>
+                  <img src="i1.jpg" />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="products">
+            <a href="#"> <img src="./images/caff3932db8ad2a8cba71bc695ebc90e.jpg" alt=""></a>
+            <a href="#"> <img src="./images/caff3932db8ad2a8cba71bc695ebc90e_CjSJsDr.jpg" alt=""></a>
+            <a href="#"> <img src="./images/caff3932db8ad2a8cba71bc695ebc90e_fRQ9ThY.jpg" alt=""></a>
+            <a href="#"> <img src="./images/caff3932db8ad2a8cba71bc695ebc90e_kPp8PZD.jpg" alt=""></a>
+            <a href="#"> <img src="./images/caff3932db8ad2a8cba71bc695ebc90e_NNIGhGB.jpg" alt=""></a>
+            <a href="#"> <img src="./images/grey-sari.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>Footer</footer>
+  </body>
+</html>
